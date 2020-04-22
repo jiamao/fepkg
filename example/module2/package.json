@@ -1,0 +1,14 @@
+{
+  "name": "fepkg-module2",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fepkg-module1": "^1.0.10"
+  }
+}

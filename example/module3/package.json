@@ -1,0 +1,15 @@
+{
+  "name": "fepkg-module3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node ../prepublish.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fepkg-module2": "^7.1.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
