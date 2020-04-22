@@ -1,6 +1,6 @@
 {
   "name": "fepkg",
-  "version": "1.0.5",
+  "version": "1.0.11",
   "description": "package",
   "main": "index.js",
   "directories": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/jiamao/fepkg#readme",
   "dependencies": {
+    "glob": "^7.1.6",
     "prettier-package-json": "^2.1.3"
   }
 }

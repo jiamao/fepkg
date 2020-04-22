@@ -19,7 +19,8 @@ npm包发布工具，主动更新依赖发布。
 
 ```js
 const fepkg = require('fepkg');
-
+// const pattern = `{./app/*/package.json,./app2/*/package.json,./app3.json}`;// 也可以用blob来批量加载
+// const pkgs fepkg.load(pattern, {root: __dirname});
 const pkgs = fepkg.load([
     '/data/packages/pkg1',
     '/data/packages/pkg2',

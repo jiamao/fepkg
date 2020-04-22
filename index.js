@@ -2,10 +2,10 @@ const pkg = require('./lib/pkg');
 const manager = require('./lib/manager');
 
 module.exports = {
-    load: function(pkgs) {
-        return manager.load(pkgs);
+    load: function(pkgs, options) {
+        return manager.load(pkgs, options);
     },
-    loadPackage: function(p) {
-        return pkg.load(p);
+    loadPackage: function(p, options) {
+        return pkg.load(p, options);
     }
 }
